@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ijunfly/QQSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'itollei' => 'wooodypan@gmail.com' }
-  s.source           = { :git => 'git@github.com:ijunfly/QQSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ijunfly/QQSDK.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
   s.frameworks       = 'SystemConfiguration'
