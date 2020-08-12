@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'QQOpenSDK'
+  s.name             = 'QQSDK'
   s.version          = '3.3.9'
   s.summary          = '腾讯开放API'
 
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   参考 https://github.com/itollei/TencentOpenAPI/blob/master/TencentOpenAPI.podspec
                        DESC
 
-  s.homepage         = 'https://github.com/ijunfly/QQSDK'
+  s.homepage         = 'https://github.com/wooodypan/QQSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'itollei' => 'wooodypan@gmail.com' }
-  s.source           = { :git => 'https://github.com/ijunfly/QQSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wooodypan/QQSDK.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
   s.frameworks       = 'SystemConfiguration'
